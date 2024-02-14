@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "author": "Googler",
     "host_permissions": [
-        "https://REGION-PROJECT.cloudfunctions.net/"
+        "https://us-central1-genai-cicd.cloudfunctions.net/"
     ],
     "action": {
         "default_popup": "index.html",

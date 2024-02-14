@@ -1,0 +1,24 @@
+![rag-flow.png](rag-flow.png)
+
+COLAB https://colab.research.google.com/drive/1YNoSkeoWqQVafWX09L1NdHRPMsQi2sXu#scrollTo=RdFM1GwzAqMD
+
+https://medium.com/@rubenszimbres/code-generation-using-retrieval-augmented-generation-langchain-861e3c1a1a53
+
+gcloud config set project=genai-cicd
+
+python3 -m venv venv
+. venv/bin/activate
+pip install -r src/requirements.txt
+
+
+## Parse
+
+## Chunk
+
+## Embed
+
+## Index/Store
+
+## Search
+
+## Run

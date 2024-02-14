@@ -5,7 +5,7 @@ document.getElementById("codeForm").addEventListener("submit", function (event) 
 });
 
 async function fetchData(data) {
-    const res = await fetch("https://REGION-PROJECT.cloudfunctions.net/devai", {
+    const res = await fetch("https://us-central1-genai-cicd.cloudfunctions.net/devai", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
