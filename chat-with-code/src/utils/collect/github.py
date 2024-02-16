@@ -1,12 +1,13 @@
+# Collect from Github
 import requests
 import time
 
-# Crawls a GitHub repository and returns a list of all ipynb files in the repository
+# Crawls a GitHub repository and returns a list of files in the repository
 
 
 # @param {type:"string"}
-GITHUB_TOKEN = "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"
-GITHUB_REPO = "GoogleCloudPlatform/generative-ai"  # @param {type:"string"}
+GITHUB_TOKEN = ""
+
 
 def crawl_github_repo(url, is_sub_dir, access_token=f"{GITHUB_TOKEN}"):
 
@@ -40,8 +41,8 @@ def crawl_github_repo(url, is_sub_dir, access_token=f"{GITHUB_TOKEN}"):
     return files
 
 
-def write_code_files_urls():
-  code_files_urls = crawl_github_repo(GITHUB_REPO, False, GITHUB_TOKEN)
+def collect_files_urls(repo):
+  code_files_urls = crawl_github_repo(repo, False, GITHUB_TOKEN)
 
   # Write list to a file so you do not have to download each time
   with open('code_files_urls.txt', 'w') as f:
@@ -49,4 +50,21 @@ def write_code_files_urls():
           f.write(item + '\n')
 
 
+def filter_file_urls(type=None):
+    urls = []
+    with open('code_files_urls.txt') as f:
+        code_files_urls = f.read().splitlines()
 
+    for i in range(0, len(code_files_urls)):
+        if type != None:
+            if code_files_urls[i].endswith("." + type):
+                urls.append(code_files_urls[i])
+                
+        else:
+            urls.append(code_files_urls[i])
+        
+    return urls
+
+def urls_from_type(repo, type):
+    collect_files_urls(repo)
+    return filter_file_urls(type)

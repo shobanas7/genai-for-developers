@@ -1,9 +1,11 @@
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/conversation/data-store-status-checker/data_store_checker.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/embedding-similarity-visualization.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/intro-textemb-vectorsearch.ipynb
+https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/use-cases/outlier-detection/bq-vector-search-log-outlier-detection.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/vector-search-quickstart.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/evaluation/evaluate_gemini_with_autosxs.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/function-calling/intro_function_calling.ipynb
+https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/function-calling/sql-talk-app/app.py
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_chat.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_pro_python.ipynb
@@ -43,6 +45,8 @@ https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/sample-a
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/sample-apps/summarization-gcs-cloudfunction/main.py
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/sample-apps/text-predict-cloudfunction/main.py
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/translation/intro_translation.ipynb
+https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/tuning/distilling_step_by_step/distilling_step_by_step.ipynb
+https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/tuning/distilling_step_by_step/prediction_container/app/main.py
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/tuning/tuning_text_bison.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/applying-llms-to-data/bigquery_dataframes_llm_code_generation.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/applying-llms-to-data/bigquery_dataframes_ml_drug_name_generation.ipynb
@@ -59,6 +63,7 @@ https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-case
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/document-summarization/summarization_large_documents.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/document-summarization/summarization_large_documents_langchain.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/document-summarization/summarization_with_documentai.ipynb
+https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/prod-catalog-enrichment/genai_prod_catalog_enrichment.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/sensitive-data-detection/context_aware_sensitive_data_detection.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/sql-code-generation/sql_code_generation.ipynb
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/noxfile.py

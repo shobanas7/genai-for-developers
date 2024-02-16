@@ -1,4 +1,5 @@
-from langchain.embeddings import VertexAIEmbeddings
+from langchain_google_vertexai import VertexAIEmbeddings
+
 
 def get_embedding():
     EMBEDDING_QPM = 100
